@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 30px;
+        }
+        header img {
+            width: 50px;
+            height: 50px;
+            margin-right: 15px;
+        }
+        .login-icon {
+            width: 30px;
+            height: 30px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+        .search-bar input {
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .food-item {
+            background: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 250px;
+            text-align: center;
+        }
+        .food-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .food-item h3 {
+            margin: 10px 0;
+        }
+        .food-item p {
+            color: #777;
+        }
+        .order-btn {
+            background-color: #ff6600;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .order-btn:hover {
+            background-color: #e55b00;
+        }
+        .social-icons {
+            text-align: center;
+            margin: 20px;
+        }
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            margin: 0 10px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display: flex; align-items: center;">
+            <img src="https://png.pngtree.com/template/20200610/ourmid/pngtree-food-delivery-logo-design-image_381319.jpg" alt="Food Delivery Logo">
+            Food Delivery Scooter
+        </div>
+        <div class="header-links">
+            <a href="#"><img src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"class="login-icon"></a>
+            <a href="#" style="color: white;">Sign In</a>
+            
+        
+            
+            
+        </div>
+
+        
+    </header>
+    <nav>
+        <a href="/Home">Home</a>
+        <a href="/Menu">Menu</a>
+        <a href="/About">About</a>
+        <a href="Contact">Contact</a>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for food...">
+    </div>
+    <div class="container">
+        <div class="food-item">
+            <img src="https://cdn.pixabay.com/photo/2020/10/05/19/55/hamburger-5630646_640.jpg" alt="Burger">
+            <h3>Delicious Burger</h3>
+            <p>$5.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?semt=ais_hybrid" alt="Pizza">
+            <h3>Cheese Pizza</h3>
+            <p>$8.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://media.istockphoto.com/id/614420426/photo/basket-of-french-fries.jpg?s=612x612&w=0&k=20&c=o6IZg_NPJkOaICTa883jd49BwZvvI7wlP6SnjhyxqsI=" alt="Fries">
+            <h3>Crispy Fries</h3>
+            <p>$3.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://t4.ftcdn.net/jpg/03/08/40/43/360_F_308404381_LqyMIXDPOR6Ut1TqE2cJRQdxomGsQegc.jpg" alt="Cake">
+            <h3>Chocolate Cake</h3>
+            <p>$6.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://assets.bonappetit.com/photos/66312e87662ac8c99c0c8306/1:1/w_6000,h_6000,c_limit/Spicy-Noodle-Soup.jpg" alt="Noodles">
+            <h3>Spicy Noodles</h3>
+            <p>$4.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://thermos.com.sg/wp-content/uploads/2024/03/Intro23.png" alt="Soft Drinks">
+            <h3>Refreshing Soft Drinks</h3>
+            <p>$1.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://cdn.pixabay.com/photo/2020/04/04/15/07/sushi-5002639_1280.jpg" alt="Sushi">
+            <h3>Fresh Sushi</h3>
+            <p>$9.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://img.freepik.com/free-photo/mexican-tacos-with-beef-tomato-sauce-salsa_2829-14218.jpg" alt="Tacos">
+            <h3>Mexican Tacos</h3>
+            <p>$7.99</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="https://img.freepik.com/free-photo/dietary-salad-with-tomatoes-feta-lettuce-spinach-pine-nuts_2829-20128.jpg" alt="Salad">
+            <h3>Healthy Salad</h3>
+            <p>$5.49</p>
+            <button class="order-btn">Order Now</button>
+        </div>
+    </div>
+    <div class="social-icons">
+        <p>Social Links:</p>
+       <a href="https://facebook.com"> <img src="https://thumbs.dreamstime.com/b/facebook-logo-vector-eps-file-squared-coloured-easily-editable-have-white-background-high-resolution-255556941.jpg" alt="Facebook"></a>
+       <a href="https://instagram.com"><img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg" alt="Instagram"></a>
+       <a href="https://whatsapp.com"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Whatsapp_logo.jpg" alt="WhatsApp"></a>
+       <a href="https://youtube.com"><img src="https://img.freepik.com/premium-vector/red-youtube-logo-social-media-logo_197792-1803.jpg?semt=ais_hybrid" alt="YouTube"></a>
+    </div>
+    <div class="footer">&copy; 2025 Food Delivery. All rights reserved.</div>
+</body>
+</html>
